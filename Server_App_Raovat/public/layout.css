@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: antiquewhite;
+}
+img {
+    width: 200px;
+    
+}
+#wrapper {
+    width: 100%;
+}
+#left {
+    width: 20%;
+    float: left;
+}
+#left #logo {
+    width: 100%;
+}
+#content {
+    width: 80%;
+    background-color: darksalmon;
+    min-height: 400px;
+    float: right;
+}
+
+#menu a:link, #menu a:visited {
+    width: 150px;
+    color: white;
+    background-color: black;
+    text-decoration: none; 
+    display: block;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+#menu a:hover {
+    background-color: yellow;
+    color: black;
+}

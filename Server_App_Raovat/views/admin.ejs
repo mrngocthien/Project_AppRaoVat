@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrator page</title>
+    <!-- Load resoures -->
+    <link rel="stylesheet" type="text/css" href="./layout.css">
+    <script src="./jquery-3.6.0.min"></script>
+    <script src="./js/cities.js"></script>
+    <script src="./js/category.js"></script>
+    
+</head>
+<body>
+    <div id="wrapper">
+        <div id="left">
+            <img id="logo "src="./images/logo.png" alt="This is logo image">
+            <div id="menu">
+                <a href="./city">Thành Phố</a> <br>
+                <a href="./category">Nhóm</a> <br>
+                <a href="./token">Tokens</a>
+            </div>
+        </div>
+        <div id="content">
+            <h4>Content :</h4>
+            <%- include(content) %>
+        </div>
+    </div>
+</body>
+</html>
